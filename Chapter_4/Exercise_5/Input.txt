@@ -1,0 +1,2 @@
+This is a test .txt file.
+This is meant to be capitalized after the Exercise_4.cpp is run.
