@@ -8,7 +8,7 @@ int main()
     ifstream north("north.txt"), south("south.txt");
     ofstream comp("compilation.txt");
 
-    while (north >> array [i] || south >> array [i]) // Import north.txt and south.txt 
+    while (north >> array [i] || south >> array [i]) // Import north.txt and south.txt into array
         i++;
 
     for (int a = 0; a < i - 1; a++) // Bubble Sort
@@ -24,7 +24,7 @@ int main()
       }
     }
 
-    for (int a = 0; a < i; a++)
+    for (int a = 0; a < i; a++) // Export the sorted array into compilation.txt
       comp << array[a] << " ";
 
     north.close();  south.close();  comp.close();
